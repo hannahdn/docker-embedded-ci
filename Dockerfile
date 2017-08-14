@@ -10,7 +10,8 @@ RUN apt-get install -y \
         cmake
 
 RUN pip install -q \
-    platformio
+    platformio \
+    future
 
 RUN git clone https://github.com/uncrustify/uncrustify.git && \
     cd uncrustify && \
