@@ -7,7 +7,8 @@ RUN apt-get install -y \
         python \
         python-pip \
         build-essential \
-        cmake
+        cmake \
+        libsdl2-dev
 
 RUN pip install -q \
     platformio \
