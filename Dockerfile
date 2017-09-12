@@ -9,7 +9,11 @@ RUN apt-get install -y \
         build-essential \
         cmake \
         libsdl2-dev \
-        autoconf
+        libjpeg-dev \
+        libv4l-dev \
+        autoconf \
+        automake \
+        libtool
 
 RUN pip install -q \
     platformio \
