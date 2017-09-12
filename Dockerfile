@@ -8,7 +8,8 @@ RUN apt-get install -y \
         python-pip \
         build-essential \
         cmake \
-        libsdl2-dev
+        libsdl2-dev \
+        autoconf
 
 RUN pip install -q \
     platformio \
